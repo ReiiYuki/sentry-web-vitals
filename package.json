@@ -31,5 +31,7 @@
   "dependencies": {
     "web-vitals": "^3.5.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/ReiiYuki/sentry-web-vitals",
+  "author": "ReiiYuki"
 }
