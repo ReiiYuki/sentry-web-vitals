@@ -1,0 +1,35 @@
+{
+  "name": "sentry-web-vitals",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/sentry-web-vitals.umd.cjs",
+  "module": "dist/sentry-web-vitals.js",
+  "exports": {
+    ".": {
+      "import": "./dist/sentry-web-vitals.js",
+      "require": "./dist/sentry-web-vitals.umd.cjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && vite build",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@sentry/browser": "^7.80.1",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^39.1.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.6.3",
+    "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "web-vitals": "^3.5.0"
+  },
+  "license": "MIT"
+}
